@@ -31,9 +31,11 @@ SLEEP_TIME = 1
 
 def download_google_images(search_query: str, number_of_images: int) -> str:
     '''Download google images with this function\n
-       Takes -> search_query, number_of_images\n
-       Returns -> None
+    Takes -> search_query, number_of_images\n
+    Returns -> None
     '''
+
+    
 
     def scroll_to_bottom():
         '''Scroll to the bottom of the page
