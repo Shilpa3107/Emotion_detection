@@ -16,7 +16,7 @@ import requests
 from PIL import Image
 
 cwd = os.getcwd()
-IMAGE_FOLDER = 'dataset-Of_emotions'
+IMAGE_FOLDER = 'dataset_of_emotions'
 os.makedirs(
     name=f'{cwd}/{IMAGE_FOLDER}',
     exist_ok=True
